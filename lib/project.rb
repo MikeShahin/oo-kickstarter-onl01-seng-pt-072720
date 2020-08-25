@@ -6,4 +6,8 @@ class Project
   def initialize(title)
     @title = title
   end
+  
+  def self.backers
+    @@backers
+  end
 end
