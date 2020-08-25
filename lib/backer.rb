@@ -9,4 +9,8 @@ class Backer
     @name = name
   end
   
+  def self.backed_projects
+    @@backed_projects
+  end
+  
 end
